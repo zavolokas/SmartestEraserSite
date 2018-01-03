@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AdSettings xmlns="http://wpunifiedad.codeplex.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://wpunifiedad.codeplex.com UnifiedAd.xsd">
+  <CountryDescriptors>
+    <AdCountryDescriptor Country="US, GB" InitialAdProvider="PubCenter">
+      <Probability Value="80" AdProvider="PubCenter" />
+      <Probability Value="20" AdProvider="AdDuplex" />
+      <Probability Value="0" AdProvider="Smaato" />
+      <Probability Value="0" AdProvider="MobFox" />
+      <Probability Value="0" AdProvider="AdMob" />
+      <!--<Probability Value="95" AdProvider="GenericAdProviderForXaml" />-->
+    </AdCountryDescriptor>
+    <AdCountryDescriptor Country="DE" InitialAdProvider="PubCenter">
+      <Probability Value="70" AdProvider="PubCenter" />
+      <Probability Value="30" AdProvider="AdDuplex" />
+      <Probability Value="0" AdProvider="Smaato" />
+      <Probability Value="0" AdProvider="MobFox" />
+      <Probability Value="0" AdProvider="AdMob" />
+    </AdCountryDescriptor>
+    <AdCountryDescriptor Country="CA" InitialAdProvider="PubCenter">
+      <Probability Value="70" AdProvider="PubCenter" />
+      <Probability Value="15" AdProvider="AdDuplex" />
+      <Probability Value="5" AdProvider="Smaato" />
+      <Probability Value="5" AdProvider="MobFox" />
+      <Probability Value="5" AdProvider="AdMob" />
+    </AdCountryDescriptor>
+    <AdCountryDescriptor Country="FR, IT" InitialAdProvider="PubCenter">
+      <Probability Value="75" AdProvider="PubCenter" />
+      <Probability Value="25" AdProvider="AdDuplex" />
+      <Probability Value="0" AdProvider="Smaato" />
+      <Probability Value="0" AdProvider="MobFox" />
+      <Probability Value="0" AdProvider="AdMob" />
+    </AdCountryDescriptor>
+    <AdCountryDescriptor InitialAdProvider="PubCenter">
+      <Probability Value="20" AdProvider="PubCenter" />
+      <Probability Value="20" AdProvider="AdDuplex" />
+      <Probability Value="20" AdProvider="Smaato" />
+      <Probability Value="20" AdProvider="MobFox" />
+      <Probability Value="20" AdProvider="AdMob" />
+      <!--<Probability Value="20" AdProvider="GenericAdProviderForXaml" />-->
+    </AdCountryDescriptor>
+  </CountryDescriptors>
+</AdSettings>
